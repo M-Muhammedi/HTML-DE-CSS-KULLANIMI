@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dikey menu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        ul{
+            list-style-type: none;
+            width:100%;
+            background-color:#3f3f3f;
+        }
+        ul li a{
+            text-decoration: none;
+            color: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight:bold;
+        }
+        ul li{
+            display:inline-block;
+            padding:15px;/*li lerin arasında boşluk bırakır*/
+            margin-left: -30px;
+            margin-right: 15px;
+        }
+        ul li:hover{
+            background-color:red;
+            transition: 0.7s;/*kırmızı olma hızıne ayarlıyor mesela burda 7saniye verdik*/
+        }
+        i{
+            padding-right: 10px;/*icont ve yazı arasındaki mesafe*/
+            color:rgb(25, 175, 5);/*icon rengine*/
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#"><i class="fa-solid fa-house-chimney"></i>Home</a></li>
+        <li><a href="#"><i class="fa-solid fa-newspaper"></i>News</a></li>
+        <li><a href="#"><i class="fa-solid fa-address-card"></i>Contact</a></li>
+        <li><a href="#"><i class="fa-regular fa-address-card"></i>About</a></li>
+    </ul>
+</body>
+</html>
