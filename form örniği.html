@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM ÖRNEĞİ</title>
+    <style>
+    body{
+        background-color: aqua;
+    }
+    table{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    table td{
+        padding-bottom: 5px;
+        padding-left: 10px;
+    }
+    </style>
+</head>
+<body>
+    <div>
+    <form action="">
+        <table>
+            <tr>
+                <td>Adınız : </td>
+                <td><input type="text" placeholder="Mustafa" required></td>
+            </tr>
+            <tr>
+                <td>Soyadınız : </td>
+                <td><input type="text" placeholder="Muhammedi" required></td>
+            </tr>
+            <tr>
+                <td>Cinsiyet : </td>
+                <td>
+                    Kadın<input type="radio" name="Cinsiyetradio" value="">
+                    Erkek<input type="radio" name="Cinsiyetradio">
+                </td>
+            </tr>
+            <tr>
+                <td>Doğum Tarih : </td>
+                <td><input type="date" required></td>
+            </tr>
+            <tr>
+                <td>Telefon : </td>
+                <td><input type="tel" placeholder="(555)-5555-555"required></td>
+            </tr>
+            <tr>
+                <td>E-posta : </td>
+            <td><input type="email" placeholder="ex@gmil.com"required></td>
+            </tr>
+            <tr>
+                <td>Şifreniz : </td>
+                <td>
+                    <input type="password" placeholder="********" maxlength="8" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Adres : </td>
+                <td><textarea name="" id="" cols="20" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="reset"> <input type="submit"></td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</body>
+</html>
